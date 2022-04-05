@@ -475,6 +475,13 @@ img.imgback:hover {
   font-weight: bold;
 }
 
+.santi{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
 
 .post-slide .post-description {
   font-size: 22px;
