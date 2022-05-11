@@ -479,6 +479,7 @@ img.imgback:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+ background-position: top;
   
 }
 
@@ -847,6 +848,7 @@ div#news-slider .owl-next {
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -100px;
+    
 }
 
 .content span {

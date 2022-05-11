@@ -1,0 +1,93 @@
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.swiper-container {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.imagenes{
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+#section3{
+    font-family: 'Righteous';
+    margin-bottom: 20px;
+    font-size: 52px;
+    
+    color: #f9b000;
+
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+header{
+    background: #3e9af5;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+header i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+.carrousel{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    
+    
+}
+
+.carrousel .img{
+    /* background-image: url('../imagen/slider/banner2.jpg'); */
+    width: 80%;
+    height: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+ .carrousel .img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.carrousel .img img{
+    width: 80%;
+    height: auto;
+}
+
+.swiper-slide {
+    width: 300px;
+    height: 300px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+} 
+
+
