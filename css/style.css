@@ -85,11 +85,8 @@ p {
 
 ul, li {
   margin: 0px;
-  list-style-type: none;
+  list-style: decimal;
 }
-
-
-
 
 /*---------------------------------------------*/
 input {
@@ -223,7 +220,9 @@ iframe {
 .main-slider div:not(.owl-nav):not(.owl-prev):not(.owl-prev):not(.owl-next) {
   height: 100%;
 }
-
+.owl-nav{
+  display: none;
+}
 
 
 
@@ -240,7 +239,7 @@ iframe {
     counter-reset: dots;
     position: absolute;
     bottom: 95px;
-    display: flex;
+    display: none;
 }
 .owl-dot {
     margin-left: 10px;
@@ -337,7 +336,7 @@ iframe {
 */
 section#section2 {
   padding-top: 65px;
-  padding-bottom: 150px;
+  
 }
 
 section#section2 .maintext span{
@@ -1663,3 +1662,36 @@ li.footer-section a:focus p{
 */
 
 
+/* CONTACTO */
+
+section#section2 .h2Contacto h2{
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+section#section2 .h2Contacto p{
+  margin-bottom: 1rem;
+}
+
+.titulos{
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.titulos h3{
+  color: #f9b000;
+}
+
+.one li{
+  margin-top: 10px;
+}
+
+.items{
+  color:#666666;
+}
+
+.ancho{
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
