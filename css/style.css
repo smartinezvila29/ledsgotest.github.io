@@ -155,7 +155,7 @@ iframe {
     font-family: 'Roboto';
     margin-bottom: 20px;
     font-size: 22px;
-    color: #f9b000;
+    color: #ffffff;
 }
 
 
@@ -176,7 +176,7 @@ iframe {
     margin-bottom: 20px;
     font-size: 52px;
     visibility: hidden;
-    color: #f9b000;
+    color: #ffffff;
 
 }
 
@@ -214,7 +214,7 @@ iframe {
   color: #666666;
   margin: 0px;
   font-size: 22px;
-  color: #f9b000;
+  color: #ffffff;
 }
 
 .main-slider div:not(.owl-nav):not(.owl-prev):not(.owl-prev):not(.owl-next) {
@@ -342,7 +342,7 @@ section#section2 {
 section#section2 .maintext span{
   margin-top: 90px;
   font-weight: 800;
-  color: #f9b000;
+  color: #ffffff;
   line-height: 1.7;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -354,7 +354,7 @@ section#section2 .maintext span{
 section#section2 .maintext h2 {
   font-size: 70px;
   font-family: 'Righteous';
-  color: #f9b000;
+  color: #ffffff;
   line-height: 1;
   text-align: center;
   margin-top: 30px;
@@ -365,7 +365,7 @@ section#section2 .maintext p {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.7;
-  color: #f9b000;
+  color: #ffffff;
   margin: 0px;
   padding-left: 50px;
   padding-right: 50px;
@@ -400,7 +400,7 @@ section#section2 .shapes p{
 .section-title h3{
   margin-top: 90px;
   font-weight: 800;
-  color: #f9b000;
+  color: #ffffff;
   line-height: 1.7;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -411,7 +411,7 @@ section#section2 .shapes p{
   margin-top: 30px;
   font-size: 70px;
   font-family: 'Righteous';
-  color: #f9b000;
+  color: #ffffff;
   line-height: 1;
   text-align: center;
   margin-bottom: 50px;
@@ -486,7 +486,7 @@ img.imgback:hover {
 .post-slide .post-description {
   font-size: 22px;
   font-family: 'Righteous';
-  color: rgb(252, 177, 0);
+  color: rgb(255, 255, 255);
   line-height: 1.1;
   text-align: center;
   padding-bottom: 30px;
@@ -579,9 +579,11 @@ div#news-slider .owl-next {
 
 .post-img p {
   color: #fff;
-  margin-top: 150px;
+  margin-top: 125px;
   text-align: center;
   visibility: hidden;
+  font-weight: bold;
+  font-size: medium;
 }
 
 .post-img:hover p {
@@ -1680,15 +1682,29 @@ section#section2 .h2Contacto p{
 }
 
 .titulos h3{
-  color: #f9b000;
+  color: #ffffff;
+}
+
+.titulos p{
+  color: #ffffff;
 }
 
 .one li{
   margin-top: 10px;
 }
 
+.one li p{
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.one p{
+  margin-top: 10px;
+  color: #ffffff;
+}
+
 .items{
-  color:#666666;
+  color:#ffffff;
 }
 
 .ancho{
