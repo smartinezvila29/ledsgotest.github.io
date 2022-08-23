@@ -9,7 +9,11 @@ Author URI: https://cemreworks.com
 * GENERAL AND HEADER START
 * ==========================================
 */
-
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
 .fixedArea {
     position: fixed;
@@ -33,7 +37,13 @@ p.colorfullText {
     color: #fab000;
     letter-spacing: 2px;
 }
-
+.subtitulos{
+  font-family: 'Righteous';
+  color: #ffffff;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 
 * {
@@ -358,7 +368,7 @@ section#section2 .maintext h2 {
   line-height: 1;
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 section#section2 .maintext p {
 
@@ -1093,7 +1103,7 @@ div#news-slider .owl-next {
   }
 
   .contact100-form-title h2{
-      font-size: 70px;
+      font-size: 40px;
       font-family: 'Righteous';
       color: rgb(248, 176, 0);
       line-height: 1;
